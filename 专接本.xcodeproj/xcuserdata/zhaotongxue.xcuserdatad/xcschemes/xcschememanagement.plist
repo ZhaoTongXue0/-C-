@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>卷1编程3道.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
 		<key>卷2编程2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -208,6 +213,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>41</integer>
+		</dict>
+		<key>小球弹跳落地.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
 		</dict>
 		<key>带参数宏定义练习.xcscheme_^#shared#^_</key>
 		<dict>

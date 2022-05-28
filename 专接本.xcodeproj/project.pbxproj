@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25330D572842019300C1BE26 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25330D562842019300C1BE26 /* main.c */; };
+		25330D62284204E700C1BE26 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25330D61284204E700C1BE26 /* main.c */; };
 		253CC201280C427400714CD7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 253CC200280C427400714CD7 /* main.c */; };
 		253CC20C280C4E5400714CD7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 253CC20B280C4E5400714CD7 /* main.c */; };
 		253CC217280D664E00714CD7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 253CC216280D664E00714CD7 /* main.c */; };
@@ -63,6 +65,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		25330D522842019300C1BE26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25330D5D284204E700C1BE26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		253CC1FC280C427400714CD7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,6 +572,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		25330D542842019300C1BE26 /* 小球弹跳落地 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "小球弹跳落地"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25330D562842019300C1BE26 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		25330D5F284204E700C1BE26 /* 卷1编程3道 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "卷1编程3道"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25330D61284204E700C1BE26 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		253CC1FE280C427400714CD7 /* 卷2编程3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "卷2编程3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		253CC200280C427400714CD7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		253CC209280C4E5400714CD7 /* 卷2编程2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "卷2编程2"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -664,6 +688,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25330D512842019300C1BE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25330D5C284204E700C1BE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		253CC1FB280C427400714CD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1065,9 +1103,12 @@
 		25330D4E2841FB0C00C1BE26 /* 精通模拟卷编程 */ = {
 			isa = PBXGroup;
 			children = (
+				25330D552842019300C1BE26 /* 小球弹跳落地 */,
+				25FF20922826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */,
 				258F2B6228322C3A008F57F3 /* 仿真预测卷1编程1 */,
 				258F2B6D28322C42008F57F3 /* 仿真预测卷1编程2 */,
 				258F2B7828322C4B008F57F3 /* 仿真预测卷1编程3 */,
+				25330D60284204E700C1BE26 /* 卷1编程3道 */,
 				253CC20A280C4E5400714CD7 /* 卷2编程2 */,
 				253CC1FF280C427400714CD7 /* 卷2编程3 */,
 				253CC215280D664E00714CD7 /* 卷3编程1 */,
@@ -1104,7 +1145,6 @@
 				25C5D7A2281C168100C55593 /* 同因查找 */,
 				25C5D7AD281C16FF00C55593 /* 记负均正 */,
 				25C5D7B8281C18D500C55593 /* 完数的判断 */,
-				25FF20922826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */,
 				25FF209D2826374200F62DFE /* 利润计算 */,
 				25FF20A828263E7500F62DFE /* 字符串分类统计 */,
 				25FF20B32826411400F62DFE /* 1013 Sn的共识求和 */,
@@ -1115,6 +1155,22 @@
 				25C3415527E850B400388C3A /* 递归母牛的故事 */,
 			);
 			path = "其他编程题练习";
+			sourceTree = "<group>";
+		};
+		25330D552842019300C1BE26 /* 小球弹跳落地 */ = {
+			isa = PBXGroup;
+			children = (
+				25330D562842019300C1BE26 /* main.c */,
+			);
+			path = "小球弹跳落地";
+			sourceTree = "<group>";
+		};
+		25330D60284204E700C1BE26 /* 卷1编程3道 */ = {
+			isa = PBXGroup;
+			children = (
+				25330D61284204E700C1BE26 /* main.c */,
+			);
+			path = "卷1编程3道";
 			sourceTree = "<group>";
 		};
 		253CC1FF280C427400714CD7 /* 卷2编程3 */ = {
@@ -1346,6 +1402,8 @@
 				25D2B328283A0EA900D0D7CC /* 数组插入 */,
 				25D2B333283A113900D0D7CC /* 第几天 */,
 				25723F71283C732900C09739 /* 字符串正反连接 */,
+				25330D542842019300C1BE26 /* 小球弹跳落地 */,
+				25330D5F284204E700C1BE26 /* 卷1编程3道 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1611,6 +1669,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		25330D532842019300C1BE26 /* 小球弹跳落地 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25330D582842019300C1BE26 /* Build configuration list for PBXNativeTarget "小球弹跳落地" */;
+			buildPhases = (
+				25330D502842019300C1BE26 /* Sources */,
+				25330D512842019300C1BE26 /* Frameworks */,
+				25330D522842019300C1BE26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小球弹跳落地";
+			productName = "小球弹跳落地";
+			productReference = 25330D542842019300C1BE26 /* 小球弹跳落地 */;
+			productType = "com.apple.product-type.tool";
+		};
+		25330D5E284204E700C1BE26 /* 卷1编程3道 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25330D63284204E700C1BE26 /* Build configuration list for PBXNativeTarget "卷1编程3道" */;
+			buildPhases = (
+				25330D5B284204E700C1BE26 /* Sources */,
+				25330D5C284204E700C1BE26 /* Frameworks */,
+				25330D5D284204E700C1BE26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "卷1编程3道";
+			productName = "卷1编程3道";
+			productReference = 25330D5F284204E700C1BE26 /* 卷1编程3道 */;
+			productType = "com.apple.product-type.tool";
+		};
 		253CC1FD280C427400714CD7 /* 卷2编程3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 253CC204280C427400714CD7 /* Build configuration list for PBXNativeTarget "卷2编程3" */;
@@ -2539,6 +2631,12 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					25330D532842019300C1BE26 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					25330D5E284204E700C1BE26 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					253CC1FD280C427400714CD7 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -2770,11 +2868,29 @@
 				25D2B327283A0EA900D0D7CC /* 数组插入 */,
 				25D2B332283A113900D0D7CC /* 第几天 */,
 				25723F70283C732900C09739 /* 字符串正反连接 */,
+				25330D532842019300C1BE26 /* 小球弹跳落地 */,
+				25330D5E284204E700C1BE26 /* 卷1编程3道 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25330D502842019300C1BE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25330D572842019300C1BE26 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25330D5B284204E700C1BE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25330D62284204E700C1BE26 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		253CC1FA280C427400714CD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3209,6 +3325,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		25330D592842019300C1BE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25330D5A2842019300C1BE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25330D64284204E700C1BE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25330D65284204E700C1BE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		253CC202280C427400714CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4493,6 +4649,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25330D582842019300C1BE26 /* Build configuration list for PBXNativeTarget "小球弹跳落地" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25330D592842019300C1BE26 /* Debug */,
+				25330D5A2842019300C1BE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25330D63284204E700C1BE26 /* Build configuration list for PBXNativeTarget "卷1编程3道" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25330D64284204E700C1BE26 /* Debug */,
+				25330D65284204E700C1BE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		253CC204280C427400714CD7 /* Build configuration list for PBXNativeTarget "卷2编程3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
