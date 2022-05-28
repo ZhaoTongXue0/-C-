@@ -585,6 +585,7 @@
 		258F2B6E28322C42008F57F3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		258F2B7728322C4B008F57F3 /* 仿真预测卷1编程3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "仿真预测卷1编程3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		258F2B7928322C4B008F57F3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2591BA122841D98E00F6A162 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2592D2332809894B00A262B9 /* 三个数找最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "三个数找最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2592D2352809894B00A262B9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2592D23E2809B05100A262B9 /* 分段函数求值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "分段函数求值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1272,6 +1273,7 @@
 		25C340F127E1FBFD00388C3A = {
 			isa = PBXGroup;
 			children = (
+				2591BA122841D98E00F6A162 /* README.md */,
 				2591BA112841D80300F6A162 /* C语言网编程 */,
 				2591BA102841D6CB00F6A162 /* 模拟卷编程题 */,
 				25C3418827EC694800388C3A /* 历年真题 */,
