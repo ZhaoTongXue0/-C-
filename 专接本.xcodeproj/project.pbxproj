@@ -55,6 +55,8 @@
 		25D2B320283A0C4400D0D7CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D2B31F283A0C4400D0D7CC /* main.c */; };
 		25D2B32B283A0EA900D0D7CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D2B32A283A0EA900D0D7CC /* main.c */; };
 		25D2B336283A113900D0D7CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D2B335283A113900D0D7CC /* main.c */; };
+		25F302292842251400D05CF5 /* 交换两个数的位置.s in Sources */ = {isa = PBXBuildFile; fileRef = 25F302282842251400D05CF5 /* 交换两个数的位置.s */; };
+		25F3022B2842268400D05CF5 /* 比较两个数的大小.s in Sources */ = {isa = PBXBuildFile; fileRef = 25F3022A2842268400D05CF5 /* 比较两个数的大小.s */; };
 		25FF20942826267B00F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF20932826267B00F62DFE /* main.c */; };
 		25FF209F2826374200F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF209E2826374200F62DFE /* main.c */; };
 		25FF20AA28263E7500F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF20A928263E7500F62DFE /* main.c */; };
@@ -425,15 +427,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		25D2B2CE2839CDC200D0D7CC /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		25D2B2D92839CDD800D0D7CC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,7 +645,6 @@
 		25C5D7AE281C16FF00C55593 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25C5D7B7281C18D500C55593 /* 完数的判断 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "完数的判断"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C5D7B9281C18D500C55593 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		25D2B2D02839CDC200D0D7CC /* 1036带参数宏定义练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1036带参数宏定义练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D2B2DB2839CDD800D0D7CC /* 带参数宏定义练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "带参数宏定义练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D2B2DD2839CDD800D0D7CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25D2B2E62839CF5F00D0D7CC /* 平均值计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "平均值计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -671,6 +663,8 @@
 		25D2B32A283A0EA900D0D7CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25D2B333283A113900D0D7CC /* 第几天 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第几天"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D2B335283A113900D0D7CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		25F302282842251400D05CF5 /* 交换两个数的位置.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "交换两个数的位置.s"; sourceTree = "<group>"; };
+		25F3022A2842268400D05CF5 /* 比较两个数的大小.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "比较两个数的大小.s"; sourceTree = "<group>"; };
 		25FF20912826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "从若干字符串中选出最小字符串并输出"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FF20932826267B00F62DFE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25FF209C2826374200F62DFE /* 利润计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利润计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -962,13 +956,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		25C5D7B4281C18D500C55593 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25D2B2CD2839CDC200D0D7CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1336,11 +1323,9 @@
 		25C340F127E1FBFD00388C3A = {
 			isa = PBXGroup;
 			children = (
-				25330D4F2841FB2000C1BE26 /* 其他编程题练习 */,
-				25330D4E2841FB0C00C1BE26 /* 精通模拟卷编程 */,
-				25330D4D2841FAEE00C1BE26 /* 往年真题编程 */,
+				25F302272842244B00D05CF5 /* 微机原理 */,
+				25F302262842243500D05CF5 /* C语言 */,
 				2591BA122841D98E00F6A162 /* README.md */,
-				25C340FC27E1FBFD00388C3A /* 专接本 */,
 				25C340FB27E1FBFD00388C3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1391,7 +1376,6 @@
 				258F2B6128322C39008F57F3 /* 仿真预测卷1编程1 */,
 				258F2B6C28322C42008F57F3 /* 仿真预测卷1编程2 */,
 				258F2B7728322C4B008F57F3 /* 仿真预测卷1编程3 */,
-				25D2B2D02839CDC200D0D7CC /* 1036带参数宏定义练习 */,
 				25D2B2DB2839CDD800D0D7CC /* 带参数宏定义练习 */,
 				25D2B2E62839CF5F00D0D7CC /* 平均值计算 */,
 				25D2B2F12839D14B00D0D7CC /* 等差数列 */,
@@ -1614,6 +1598,26 @@
 				25D2B335283A113900D0D7CC /* main.c */,
 			);
 			path = "第几天";
+			sourceTree = "<group>";
+		};
+		25F302262842243500D05CF5 /* C语言 */ = {
+			isa = PBXGroup;
+			children = (
+				25C340FC27E1FBFD00388C3A /* 专接本 */,
+				25330D4F2841FB2000C1BE26 /* 其他编程题练习 */,
+				25330D4E2841FB0C00C1BE26 /* 精通模拟卷编程 */,
+				25330D4D2841FAEE00C1BE26 /* 往年真题编程 */,
+			);
+			path = "C语言";
+			sourceTree = "<group>";
+		};
+		25F302272842244B00D05CF5 /* 微机原理 */ = {
+			isa = PBXGroup;
+			children = (
+				25F302282842251400D05CF5 /* 交换两个数的位置.s */,
+				25F3022A2842268400D05CF5 /* 比较两个数的大小.s */,
+			);
+			path = "微机原理";
 			sourceTree = "<group>";
 		};
 		25FF20922826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */ = {
@@ -2349,23 +2353,6 @@
 			productReference = 25C5D7B7281C18D500C55593 /* 完数的判断 */;
 			productType = "com.apple.product-type.tool";
 		};
-		25D2B2CF2839CDC200D0D7CC /* 1036带参数宏定义练习 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25D2B2D42839CDC200D0D7CC /* Build configuration list for PBXNativeTarget "1036带参数宏定义练习" */;
-			buildPhases = (
-				25D2B2CC2839CDC200D0D7CC /* Sources */,
-				25D2B2CD2839CDC200D0D7CC /* Frameworks */,
-				25D2B2CE2839CDC200D0D7CC /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "1036带参数宏定义练习";
-			productName = "1036带参数宏定义练习";
-			productReference = 25D2B2D02839CDC200D0D7CC /* 1036带参数宏定义练习 */;
-			productType = "com.apple.product-type.tool";
-		};
 		25D2B2DA2839CDD800D0D7CC /* 带参数宏定义练习 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25D2B2DF2839CDD800D0D7CC /* Build configuration list for PBXNativeTarget "带参数宏定义练习" */;
@@ -2751,9 +2738,6 @@
 					25C5D7B6281C18D500C55593 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					25D2B2CF2839CDC200D0D7CC = {
-						CreatedOnToolsVersion = 13.4;
-					};
 					25D2B2DA2839CDD800D0D7CC = {
 						CreatedOnToolsVersion = 13.4;
 					};
@@ -2857,7 +2841,6 @@
 				258F2B6028322C39008F57F3 /* 仿真预测卷1编程1 */,
 				258F2B6B28322C42008F57F3 /* 仿真预测卷1编程2 */,
 				258F2B7628322C4A008F57F3 /* 仿真预测卷1编程3 */,
-				25D2B2CF2839CDC200D0D7CC /* 1036带参数宏定义练习 */,
 				25D2B2DA2839CDD800D0D7CC /* 带参数宏定义练习 */,
 				25D2B2E52839CF5F00D0D7CC /* 平均值计算 */,
 				25D2B2F02839D14B00D0D7CC /* 等差数列 */,
@@ -3062,6 +3045,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F3022B2842268400D05CF5 /* 比较两个数的大小.s in Sources */,
+				25F302292842251400D05CF5 /* 交换两个数的位置.s in Sources */,
 				25C340FE27E1FBFD00388C3A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3194,13 +3179,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25D2B2CC2839CDC200D0D7CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25D2B2D72839CDD800D0D7CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3328,6 +3306,7 @@
 		25330D592842019300C1BE26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3338,6 +3317,7 @@
 		25330D5A2842019300C1BE26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3348,6 +3328,7 @@
 		25330D64284204E700C1BE26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3358,6 +3339,7 @@
 		25330D65284204E700C1BE26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3632,6 +3614,7 @@
 		25723F75283C732900C09739 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3642,6 +3625,7 @@
 		25723F76283C732900C09739 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4308,35 +4292,10 @@
 			};
 			name = Release;
 		};
-		25D2B2D52839CDC200D0D7CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KF2XG9CG3N;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		25D2B2D62839CDC200D0D7CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KF2XG9CG3N;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		25D2B2E02839CDD800D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4347,6 +4306,7 @@
 		25D2B2E12839CDD800D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4357,6 +4317,7 @@
 		25D2B2EB2839CF5F00D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4367,6 +4328,7 @@
 		25D2B2EC2839CF5F00D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4377,6 +4339,7 @@
 		25D2B2F62839D14B00D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4387,6 +4350,7 @@
 		25D2B2F72839D14B00D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4397,6 +4361,7 @@
 		25D2B3012839D2CC00D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4407,6 +4372,7 @@
 		25D2B3022839D2CC00D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4417,6 +4383,7 @@
 		25D2B30C2839D89300D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4427,6 +4394,7 @@
 		25D2B30D2839D89300D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4437,6 +4405,7 @@
 		25D2B3172839D9AC00D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4447,6 +4416,7 @@
 		25D2B3182839D9AC00D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4457,6 +4427,7 @@
 		25D2B322283A0C4400D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4467,6 +4438,7 @@
 		25D2B323283A0C4400D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4477,6 +4449,7 @@
 		25D2B32D283A0EA900D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4487,6 +4460,7 @@
 		25D2B32E283A0EA900D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4497,6 +4471,7 @@
 		25D2B338283A113900D0D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -4507,6 +4482,7 @@
 		25D2B339283A113900D0D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KF2XG9CG3N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -5014,15 +4990,6 @@
 			buildConfigurations = (
 				25C5D7BC281C18D500C55593 /* Debug */,
 				25C5D7BD281C18D500C55593 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25D2B2D42839CDC200D0D7CC /* Build configuration list for PBXNativeTarget "1036带参数宏定义练习" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25D2B2D52839CDC200D0D7CC /* Debug */,
-				25D2B2D62839CDC200D0D7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
