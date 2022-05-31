@@ -57,6 +57,8 @@
 		25D2B336283A113900D0D7CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25D2B335283A113900D0D7CC /* main.c */; };
 		25F302292842251400D05CF5 /* 交换两个数的位置.s in Sources */ = {isa = PBXBuildFile; fileRef = 25F302282842251400D05CF5 /* 交换两个数的位置.s */; };
 		25F3022B2842268400D05CF5 /* 比较两个数的大小.s in Sources */ = {isa = PBXBuildFile; fileRef = 25F3022A2842268400D05CF5 /* 比较两个数的大小.s */; };
+		25F3023328462A5100D05CF5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25F3023228462A5100D05CF5 /* main.c */; };
+		25F3023E28462B7200D05CF5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25F3023D28462B7200D05CF5 /* main.c */; };
 		25FF20942826267B00F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF20932826267B00F62DFE /* main.c */; };
 		25FF209F2826374200F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF209E2826374200F62DFE /* main.c */; };
 		25FF20AA28263E7500F62DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25FF20A928263E7500F62DFE /* main.c */; };
@@ -508,6 +510,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		25F3022E28462A5100D05CF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25F3023928462B7200D05CF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		25FF208F2826267B00F62DFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -665,6 +685,10 @@
 		25D2B335283A113900D0D7CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25F302282842251400D05CF5 /* 交换两个数的位置.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "交换两个数的位置.s"; sourceTree = "<group>"; };
 		25F3022A2842268400D05CF5 /* 比较两个数的大小.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "比较两个数的大小.s"; sourceTree = "<group>"; };
+		25F3023028462A5100D05CF5 /* 矩阵转置 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "矩阵转置"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F3023228462A5100D05CF5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		25F3023B28462B7200D05CF5 /* 选民投票 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "选民投票"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F3023D28462B7200D05CF5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25FF20912826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "从若干字符串中选出最小字符串并输出"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FF20932826267B00F62DFE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25FF209C2826374200F62DFE /* 利润计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利润计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1025,6 +1049,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25F3022D28462A5100D05CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3023828462B7200D05CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25FF208E2826267B00F62DFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1090,6 +1128,8 @@
 		25330D4E2841FB0C00C1BE26 /* 精通模拟卷编程 */ = {
 			isa = PBXGroup;
 			children = (
+				25F3023C28462B7200D05CF5 /* 选民投票 */,
+				25F3023128462A5100D05CF5 /* 矩阵转置 */,
 				25330D552842019300C1BE26 /* 小球弹跳落地 */,
 				25FF20922826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */,
 				258F2B6228322C3A008F57F3 /* 仿真预测卷1编程1 */,
@@ -1388,6 +1428,8 @@
 				25723F71283C732900C09739 /* 字符串正反连接 */,
 				25330D542842019300C1BE26 /* 小球弹跳落地 */,
 				25330D5F284204E700C1BE26 /* 卷1编程3道 */,
+				25F3023028462A5100D05CF5 /* 矩阵转置 */,
+				25F3023B28462B7200D05CF5 /* 选民投票 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1618,6 +1660,22 @@
 				25F3022A2842268400D05CF5 /* 比较两个数的大小.s */,
 			);
 			path = "微机原理";
+			sourceTree = "<group>";
+		};
+		25F3023128462A5100D05CF5 /* 矩阵转置 */ = {
+			isa = PBXGroup;
+			children = (
+				25F3023228462A5100D05CF5 /* main.c */,
+			);
+			path = "矩阵转置";
+			sourceTree = "<group>";
+		};
+		25F3023C28462B7200D05CF5 /* 选民投票 */ = {
+			isa = PBXGroup;
+			children = (
+				25F3023D28462B7200D05CF5 /* main.c */,
+			);
+			path = "选民投票";
 			sourceTree = "<group>";
 		};
 		25FF20922826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */ = {
@@ -2506,6 +2564,40 @@
 			productReference = 25D2B333283A113900D0D7CC /* 第几天 */;
 			productType = "com.apple.product-type.tool";
 		};
+		25F3022F28462A5100D05CF5 /* 矩阵转置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F3023628462A5100D05CF5 /* Build configuration list for PBXNativeTarget "矩阵转置" */;
+			buildPhases = (
+				25F3022C28462A5100D05CF5 /* Sources */,
+				25F3022D28462A5100D05CF5 /* Frameworks */,
+				25F3022E28462A5100D05CF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "矩阵转置";
+			productName = "矩阵转置";
+			productReference = 25F3023028462A5100D05CF5 /* 矩阵转置 */;
+			productType = "com.apple.product-type.tool";
+		};
+		25F3023A28462B7200D05CF5 /* 选民投票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F3023F28462B7200D05CF5 /* Build configuration list for PBXNativeTarget "选民投票" */;
+			buildPhases = (
+				25F3023728462B7200D05CF5 /* Sources */,
+				25F3023828462B7200D05CF5 /* Frameworks */,
+				25F3023928462B7200D05CF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选民投票";
+			productName = "选民投票";
+			productReference = 25F3023B28462B7200D05CF5 /* 选民投票 */;
+			productType = "com.apple.product-type.tool";
+		};
 		25FF20902826267B00F62DFE /* 从若干字符串中选出最小字符串并输出 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25FF20972826267B00F62DFE /* Build configuration list for PBXNativeTarget "从若干字符串中选出最小字符串并输出" */;
@@ -2765,6 +2857,12 @@
 					25D2B332283A113900D0D7CC = {
 						CreatedOnToolsVersion = 13.4;
 					};
+					25F3022F28462A5100D05CF5 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					25F3023A28462B7200D05CF5 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					25FF20902826267B00F62DFE = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -2853,6 +2951,8 @@
 				25723F70283C732900C09739 /* 字符串正反连接 */,
 				25330D532842019300C1BE26 /* 小球弹跳落地 */,
 				25330D5E284204E700C1BE26 /* 卷1编程3道 */,
+				25F3022F28462A5100D05CF5 /* 矩阵转置 */,
+				25F3023A28462B7200D05CF5 /* 选民投票 */,
 			);
 		};
 /* End PBXProject section */
@@ -3248,6 +3348,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D2B336283A113900D0D7CC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3022C28462A5100D05CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F3023328462A5100D05CF5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F3023728462B7200D05CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F3023E28462B7200D05CF5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4490,6 +4606,46 @@
 			};
 			name = Release;
 		};
+		25F3023428462A5100D05CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25F3023528462A5100D05CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25F3024028462B7200D05CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25F3024128462B7200D05CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF2XG9CG3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		25FF20952826267B00F62DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5071,6 +5227,24 @@
 			buildConfigurations = (
 				25D2B338283A113900D0D7CC /* Debug */,
 				25D2B339283A113900D0D7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F3023628462A5100D05CF5 /* Build configuration list for PBXNativeTarget "矩阵转置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F3023428462A5100D05CF5 /* Debug */,
+				25F3023528462A5100D05CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F3023F28462B7200D05CF5 /* Build configuration list for PBXNativeTarget "选民投票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F3024028462B7200D05CF5 /* Debug */,
+				25F3024128462B7200D05CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
