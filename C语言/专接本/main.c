@@ -6,9 +6,11 @@
 //  删除重复字符。例如：abacaeedabcdcd。 删除重复字符后的字符串为： abced
 
 #include<stdio.h>
-#define N 5
+
 int main(){
-    int a[N][3+1];
-    printf("%d",a[0][0]);
+    int x=3;
+    do {
+        printf("%d\n",x-=2);
+    } while (!(--x));
 }
 
