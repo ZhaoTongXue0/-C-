@@ -8,9 +8,8 @@
 #include<stdio.h>
 
 int main(){
-    int x=3;
-    do {
-        printf("%d\n",x-=2);
-    } while (!(--x));
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("a=%d,b=%d",a,b);
 }
 
